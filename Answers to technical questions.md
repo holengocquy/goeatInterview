@@ -39,9 +39,6 @@
   
   <meta name="request-id" content="E8DB:5B4F:481C82:6AFBD2:5B5EC7BE" data-pjax-transient>
 
-
-  
-
   <meta name="selected-link" value="repo_source" data-pjax-transient>
 
     <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
@@ -524,34 +521,7 @@
     
   <div id="readme" class="readme blob instapaper_body">
     <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-goeat-engineer-recruitment-test" class="anchor" aria-hidden="true" href="#goeat-engineer-recruitment-test"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GoEat Engineer Recruitment Test</h1>
-<p>Quick test for engineers who would like to join GoEat awesome team.</p>
-<p>Thank you for taking the time to do our technical test. It consists of two parts:</p>
-<ul>
-<li><a href="#coding-test">A coding test</a></li>
-<li><a href="#technical-questions">A few technical questions</a></li>
-</ul>
-<p>In order to avoid bounced emails we would like you to submit your results by attached a relevant file ZIP into email named <strong>technical_interview-{yourname}-{role-applied-for}</strong> and send it to <a href="mailto:talent@goeat.me">talent@goeat.me</a>.</p>
-<p>Please make this a single zip file containing:</p>
-<ol>
-<li>A single markdown file with the answers to the technical questions.</li>
-<li>One folder containing the technical test.</li>
-</ol>
-<h2><a id="user-content-coding-test" class="anchor" aria-hidden="true" href="#coding-test"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Coding test</h2>
-<p>GoEat manages a lot of different dishes with different ingredients and cuisines. In order to make a better search UX, we structure different tags for each dish. For example, Pho will have Vietnam, rice tags. These tags have parent-children relationship. For example, Vietnam tag is the children of Southeast Asia tag, Southeast Asia tag is the children of Asia tag.</p>
-<p>From the parent tag, the user can find all the tagged dishes and its sub tags. I.e. Vietnam tagged Pho and Vietnamese bread, Southeast Asian tagged noodles, Asian tagged rice. The relationship between the above parental structure is from right to left following Asia &gt; Southeast Asia &gt; Vietnam. When the user types Asian, the result is rice, noodles, Vietnamese bread, noodles. Southeast Asia is noodles, bread, pho. And Vietnam is Vietnamese bread, pho.</p>
-<p>This task is implement the application as either a command line application or web application that meets the above requirements.</p>
-<h4><a id="user-content-acceptance-criteria" class="anchor" aria-hidden="true" href="#acceptance-criteria"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Acceptance criteria</h4>
-<ul>
-<li>User can define tag with name and parent tag.</li>
-<li>User can add a string content and tag it with any defined tag.</li>
-<li>User can search their string content by enter a tag.</li>
-</ul>
-<h3><a id="user-content-task-requirements" class="anchor" aria-hidden="true" href="#task-requirements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Task requirements</h3>
-<ul>
-<li>Your code should compile and run in one step.</li>
-<li>Feel free to use whatever frameworks / libraries / packages you like.</li>
-<li>Please avoid including artifacts from your local build (such as NuGet packages or the bin folder(s)) in your final ZIP file.</li>
-</ul>
+
 <h2><a id="user-content-technical-questions" class="anchor" aria-hidden="true" href="#technical-questions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Technical questions</h2>
 <p>Please answer the following questions in a markdown file called Answers to technical questions.md by Vietnamese or English.</p>
 <ol>
